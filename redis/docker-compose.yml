@@ -7,7 +7,7 @@ services:
     restart: always
     ports:
       - 6379:6379
-#windows 宿主机E盘data/redis/data目录挂载到容器/data目录
+#windows 宿主机D盘data/redis/data目录挂载到容器/data目录
     volumes:
-      - "E:\\data\\redis\\redis.conf:/etc/redis/redis.conf"
-      - "E:\\data\\redis\\data:/data"
+      - "D:\\data\\redis\\redis.conf:/etc/redis/redis.conf"
+      - "D:\\data\\redis\\data:/data"

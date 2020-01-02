@@ -10,9 +10,9 @@ services:
       MYSQL_ROOT_PASSWORD: root123456
     ports:
       - 3306:3306
-#windows 宿主机E盘data/mysql目录挂载到容器/var/lib/mysql目录
+#windows 宿主机D盘data/mysql目录挂载到容器/var/lib/mysql目录
     volumes:
-      - "E:\\data\\mysql:/var/lib/mysql"  
+      - "D:\\data\\mysql:/var/lib/mysql"  
 #  adminer:
 #    image: adminer:latest
 #    restart: always
