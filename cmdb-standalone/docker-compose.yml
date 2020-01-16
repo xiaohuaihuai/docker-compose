@@ -1,0 +1,9 @@
+# 打开浏览器，访问http://127.0.0.1:8081即可体验最新版的蓝鲸配置平台服务
+version: '3.1'
+
+services:
+  cmdb-standalone:
+    image: ccr.ccs.tencentyun.com/bk.io/cmdb-standalone:latest
+#    restart: always
+    ports:
+      - 8081:8090
