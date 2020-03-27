@@ -13,6 +13,7 @@ services:
 #windows 宿主机D盘data/mysql目录挂载到容器/var/lib/mysql目录
     volumes:
       - "D:\\data\\mysql:/var/lib/mysql"  
+      - "D:\\data\\mysql\\conf.d:/etc/mysql/conf.d"  
 #  adminer:
 #    image: adminer:latest
 #    restart: always
