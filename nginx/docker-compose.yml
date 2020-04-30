@@ -3,7 +3,7 @@ version: '3.1'
 services:
   nginx:
     image: nginx
-    #restart: always
+    restart: always
     ports:
      - "80:80"
     volumes:
